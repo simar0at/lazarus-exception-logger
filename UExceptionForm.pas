@@ -66,7 +66,7 @@ begin
   ListView1.Column[4].Caption := SProcedureMethod;
   ListView1.Column[5].Caption := SUnit;
 
-  Height := PanelBasic.Height + PanelButtons.Height;
+  Height := PanelBasic.Height + PanelButtons.Height + PanelDescription.height;
   PageControl1.ActivePageIndex := 0;
   CheckBoxIgnore.Checked := False;
 end;
