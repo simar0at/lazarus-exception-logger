@@ -83,9 +83,11 @@ Set *Project Options - Debugging*
 
 *Generate debugging info...*: Yes
 
-*Type of debug info*: Stabs (-gs)
+*Type of debug info*: Dwarf (stabs is not supported on 64-bit for example)
 
 *Display line numbers...*: Yes
+
+Add `-godwarfmethodclassprefix` to *User settings* to see class names
 
 ### Standalone usage
 
